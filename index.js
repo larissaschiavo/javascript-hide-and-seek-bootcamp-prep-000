@@ -26,4 +26,6 @@ function deepestChild() {
       mainNode = nextNode
       nextNode = mainNode.children[0]
     }
+
+  return mainNode
 }
